@@ -1,0 +1,26 @@
+theme = "bogster"
+
+[editor]
+line-number = "relative"
+cursorline = true
+idle-timeout = 200
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.whitespace.render]
+space = "none"
+tab  = "all"
+newline = "none"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+tab = "▏"
+newline = "⏎"
+# tabpad = "·"
+
+[editor.indent-guides]
+render = true
+character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
+skip-levels = 1

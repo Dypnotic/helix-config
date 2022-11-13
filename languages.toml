@@ -1,0 +1,9 @@
+[[language]]
+name = "astro"
+scope = "source.astro"
+injection-regex = "astro"
+file-types = ["astro"]
+roots = ["package.json", "tsconfig.json", "jsconfig.json", ".git"]
+indent = { tab-width = 2, unit = "  " }
+language-server = { command = "astro-ls", args = ["--studio"] }
+config = { configuration = {}, typescript = { serverPath = "" } }
