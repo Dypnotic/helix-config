@@ -1,3 +1,4 @@
+# Astro
 [[language]]
 name = "astro"
 scope = "source.astro"
@@ -7,3 +8,10 @@ roots = ["package.json", "tsconfig.json", "jsconfig.json", ".git"]
 indent = { tab-width = 2, unit = "  " }
 language-server = { command = "astro-ls", args = ["--studio"] }
 config = { configuration = {}, typescript = { serverPath = "" } }
+
+# Rust
+[[language]]
+name = "rust"
+
+[language.config]
+checkOnSave = { command = "clippy" }
